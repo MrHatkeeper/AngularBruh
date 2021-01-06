@@ -14,8 +14,8 @@ export class BlogPostComponent{
 
 
   posts: IBlogPost[] = [
-    {title: 'Ahoj', body: 'mrkev'},
-    {title: 'Ahoj 2', body: 'mrkev 2'}
+    {title: 'idk', body: 'bruh'},
+    {title: 'xd', body: 'bruhxd'}
   ]
 
   editedTitle = '';
