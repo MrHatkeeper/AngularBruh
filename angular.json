@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "AngularPorod"
+  "defaultProject": "AngularPorod",
+  "cli": {
+    "analytics": false
+  }
 }
