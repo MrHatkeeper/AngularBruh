@@ -5,9 +5,9 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class ExctPipe implements PipeTransform {
 
-  transform(text: string, lenght: number): string {
-    if(text.length > lenght){
-      return text.substr(0, lenght) + '...';
+  transform(text: string, lengh: number, change: string): string {
+    if(text.length > lengh){
+      return text.substr(0, lengh) + change;
     }
     return text;
   }
