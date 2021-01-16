@@ -5,7 +5,11 @@
     <button (click)="save()">Save</button>
   </form>
   <div *ngFor="let post of posts" (click)="editedPost = post;editedTitle = post.title;editedBody = post.body">
-    <h2>{{post.title | exct:6:'.............'}}</h2>
+    <h2>{{post.title | exct:6:'..'}}</h2>
     <p>{{post.body}}</p>
   </div>
 </div>
+
+
+
+
